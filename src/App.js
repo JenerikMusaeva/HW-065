@@ -1,9 +1,9 @@
+import React from "react";
+import Homework from "./components/HW-65/Homework";
 
 
 function App() {
-  return (
-    <h1>Hello world!</h1>
-  );
+  return <Homework /> ;
 }
 
 export default App;

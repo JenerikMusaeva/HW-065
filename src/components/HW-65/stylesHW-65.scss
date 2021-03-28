@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.day {
+  --background-color: rgb(129, 179, 245);
+  --circle-color: yellow;
+}
+
+.night {
+  --background-color: rgb(2, 40, 90);
+  --circle-color: rgb(250, 243, 153);
+}
+
+.body {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 100px;
+  background: var(--background-color);
+} 
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: var(--circle-color);
+}
+
+
